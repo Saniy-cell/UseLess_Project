@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe List</title>
+    <style>
+        /* Basic styling for the recipe list */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f4f4f9;
+            padding: 20px;
+        }
+
+        #recipe-container {
+            width: 80%;
+            max-width: 600px;
+            margin-top: 20px;
+        }
+
+        #recipe-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #recipe-list li {
+            background-color: #ffffff;
+            padding: 15px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .recipe-name {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .recipe-description {
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Recipe List</h1>
+    <div id="recipe-container">
+        <ul id="recipe-list">
+            <!-- Recipes will be added here dynamically by JavaScript -->
+        </ul>
+    </div>
+
+    <script>
+        // Sample recipe data
+        const recipes = [
+            { name: "Pasta Primavera", description: "A light and tasty pasta dish with fresh vegetables." },
+            { name: "Chicken Curry", description: "A spicy and flavorful chicken curry with coconut milk." },
+            { name: "Beef Stew", description: "A hearty beef stew with carrots and potatoes." },
+            { name: "Caesar Salad", description: "A classic Caesar salad with crunchy croutons and creamy dressing." }
+        ];
+
+        // Function to display recipes in the HTML
+        function displayRecipes() {
+            const recipeList = document.getElementById('recipe-list');
+            recipeList.innerHTML = ''; // Clear any existing content
+
+            recipes.forEach(recipe => {
+                const listItem = document.createElement('li');
+
+                const recipeName = document.createElement('div');
+                recipeName.className = 'recipe-name';
+                recipeName.innerText = recipe.name;
+
+                const recipeDescription = document.createElement('div');
+                recipeDescription.className = 'recipe-description';
+                recipeDescription.innerText = recipe.description;
+
+                listItem.appendChild(recipeName);
+                listItem.appendChild(recipeDescription);
+                recipeList.appendChild(listItem);
+            });
+        }
+
+        // Run displayRecipes when the page loads
+        document.addEventListener('DOMContentLoaded', displayRecipes);
+    </script>
+</body>
+</html>

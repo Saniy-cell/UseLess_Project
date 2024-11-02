@@ -1,0 +1,115 @@
+styles.css
+*{box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body{
+    front-family:'Arial',sans-serif;
+    background-color: #e3a9e7;
+    color: #343a40;
+}
+.container{
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background:url('meals/dishes.png')
+    color: purple;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    background-size:cover;
+    background-position:center;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+h2{
+    margin-bottom: 15px;
+    color: #007bff;
+}
+form{
+    margin-bottom: 20px;
+}
+input[type="text"],
+input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ca8ad7;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #eaedf1;    
+}
+.hidden{
+    display: none;
+}
+#suggestions{
+    margin-top: 20px;
+}
+#recipe-list{
+    list-style-type: none;
+}
+#recipe-list li{
+    background-color: #f6f7f8;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+styles.css
+*{box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body{
+    front-family:'Arial',sans-serif;
+    background-color: #e3a9e7;
+    color: #343a40;
+}
+.container{
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #e1a0de;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+h2{
+    margin-bottom: 15px;
+    color: #007bff;
+}
+form{
+    margin-bottom: 20px;
+}
+input[type="text"],
+input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ca8ad7;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #eaedf1;    
+}
+.hidden{
+    display: none;
+}
+#suggestions{
+    margin-top: 20px;
+}
+#recipe-list{
+    list-style-type: none;
+}
+#recipe-list li{
+    background-color: #f6f7f8;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
