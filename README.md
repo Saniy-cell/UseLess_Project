@@ -46,14 +46,14 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![Login page]https://drive.google.com/file/d/1w5mgItuhP1MElld9M9bdJLwbcA0tjTcd/view?usp=drivesdk
+Login page
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot2]https://drive.google.com/file/d/1wF36ZF37auapkz1yQt4akiKvzXfLM46H/view?usp=drivesdk
+Home page
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot3]https://drive.google.com/file/d/1w4z-G6hHHVfvLASJST1JPCQzXK2_pqGk/view?usp=drivesdk
+Final Result 
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
@@ -79,9 +79,10 @@ For Hardware:
 *Explain the final build*
 
 ### Project Demo
-# Video
-[Add your demo video link here]
+# Videohttps://drive.google.com/file/d/1w1pnj0F-055iil0D3KNNOMBdEScgQ4bx/view?usp=drivesdk
+https://drive.google.com/file/d/1w1pnj0F-055iil0D3KNNOMBdEScgQ4bx/view?usp=drivesdk
 *Explain what the video demonstrates*
+It explains how Flavor Finder works
 
 # Additional Demos
 [Add any extra demo materials/links]
