@@ -79,8 +79,7 @@ For Hardware:
 *Explain the final build*
 
 ### Project Demo
-# Videohttps://drive.google.com/file/d/1w1pnj0F-055iil0D3KNNOMBdEScgQ4bx/view?usp=drivesdk
-https://drive.google.com/file/d/1w1pnj0F-055iil0D3KNNOMBdEScgQ4bx/view?usp=drivesdk
+https://drive.google.com/file/d/1wO6c37g3Znol6qIAZSY4PPcfMCkrDk0h/view?usp=drivesdk
 *Explain what the video demonstrates*
 It explains how Flavor Finder works
 
